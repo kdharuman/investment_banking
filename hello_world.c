@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int
+main (int argc, char **argv)	{
+	char emp_name[20];
+	int emp_num;
+	printf ("\nTotal no. of arguments passed: %d",argc);
+	printf ("\n\nWelcome to the world of Advanced Software Engineering\n\n");
+	return 0;
+}
