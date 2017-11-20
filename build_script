@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Building $1 program";
+make clean
+make
+rc=$?
+
+if [ $rc -eq 0 ]; then
+	echo "Return code=$rc" >> success_code.txt
+	echo "Hurray - Build successful";
+	./hello_world 10 20 30 40 50
+	exit 0;
+else
+	echo "Return code=$rc" >> failure_code.txt
+	echo "Oops - Build failure";
+	exit 1;
+fi
+
