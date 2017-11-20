@@ -7,5 +7,6 @@ main (int argc, char **argv)	{
 	int emp_num;
 	printf ("\nTotal no. of arguments passed: %d",argc);
 	printf ("\n\nWelcome to the world of Advanced Software Engineering\n\n");
+	printf ("\nWelcome to Cognizant");
 	return 0;
 }
