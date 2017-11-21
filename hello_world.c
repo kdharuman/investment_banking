@@ -10,5 +10,6 @@ main (int argc, char **argv)	{
 	printf ("\nWelcome to Cognizant");
 	printf ("\nPushing to artifactory");
 	printf ("\nAdded maven task");
+	printf ("\nFixed maven issue");
 	return 0;
 }
