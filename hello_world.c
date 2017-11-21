@@ -8,5 +8,6 @@ main (int argc, char **argv)	{
 	printf ("\nTotal no. of arguments passed: %d",argc);
 	printf ("\n\nWelcome to the world of Advanced Software Engineering\n\n");
 	printf ("\nWelcome to Cognizant");
+	printf ("\nPushing to artifactory");
 	return 0;
 }
