@@ -5,7 +5,7 @@ make
 rc=$?
 
 if [ $rc -eq 0 ]; then
-	echo "Return code=$rc" >> success_code.txt
+	echo "Return code=$rc " >> success_code.txt
 	echo "Hurray - Build successful";
 	./hello_world 10 20 30 40 50
 	exit 0;
