@@ -9,5 +9,6 @@ main (int argc, char **argv)	{
 	printf ("\n\nWelcome to the world of Advanced Software Engineering\n\n");
 	printf ("\nWelcome to Cognizant");
 	printf ("\nPushing to artifactory");
+	printf ("\nAdded maven task");
 	return 0;
 }
