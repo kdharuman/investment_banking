@@ -11,5 +11,6 @@ main (int argc, char **argv)	{
 	printf ("\nPushing to artifactory");
 	printf ("\nAdded maven task");
 	printf ("\nFixed maven issue");
+	printf ("\nFixed pom.xml issue");
 	return 0;
 }
