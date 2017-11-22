@@ -12,5 +12,6 @@ main (int argc, char **argv)	{
 	printf ("\nAdded maven task");
 	printf ("\nFixed maven issue");
 	printf ("\nFixed pom.xml issue");
+	printf ("\nUsing a different path");
 	return 0;
 }
